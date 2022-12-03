@@ -11,6 +11,10 @@ const input = readFileSync(inputFile)
   .filter((line) => line !== '');
 
 // Implementations per day differ from here:
+
+// ⚠️ This is "clever" code. It's bad!
+// I won't figure out how this works if I need to get back to it.
+
 /**
  * Returns an array where each element is an array of three rucksacks.
  * Each rucksack is an array of its contained characters.
